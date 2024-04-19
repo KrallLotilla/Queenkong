@@ -1,0 +1,102 @@
+[
+  {
+    "username": "user1",
+    "password": "P@ssw0rd1",
+    "status": "paid"
+  },
+  {
+    "username": "user2",
+    "password": "SecurePass123",
+    "status": "free"
+  },
+  {
+    "username": "user3",
+    "password": "12345678",
+    "status": "paid"
+  },
+  {
+    "username": "user4",
+    "password": "Passw0rd!",
+    "status": "free"
+  },
+  {
+    "username": "user5",
+    "password": "qwerty123",
+    "status": "paid"
+  },
+  {
+    "username": "user6",
+    "password": "password123",
+    "status": "free"
+  },
+  {
+    "username": "user7",
+    "password": "P@55w0rd!",
+    "status": "paid"
+  },
+  {
+    "username": "user8",
+    "password": "pass123",
+    "status": "free"
+  },
+  {
+    "username": "user9",
+    "password": "secure123",
+    "status": "paid"
+  },
+  {
+    "username": "user10",
+    "password": "123456",
+    "status": "free"
+  },
+  {
+    "username": "user11",
+    "password": "P@ssword123",
+    "status": "paid"
+  },
+  {
+    "username": "user12",
+    "password": "password",
+    "status": "free"
+  },
+  {
+    "username": "user13",
+    "password": "qwerty",
+    "status": "paid"
+  },
+  {
+    "username": "user14",
+    "password": "abc123",
+    "status": "free"
+  },
+  {
+    "username": "user15",
+    "password": "987654321",
+    "status": "paid"
+  },
+  {
+    "username": "user16",
+    "password": "Passw0rd123!",
+    "status": "free"
+  },
+  {
+    "username": "user17",
+    "password": "iloveyou",
+    "status": "paid"
+  },
+  {
+    "username": "user18",
+    "password": "password1",
+    "status": "free"
+  },
+  {
+    "username": "user19",
+    "password": "admin123",
+    "status": "paid"
+  },
+  {
+    "username": "user20",
+    "password": "hello123",
+    "status": "free"
+  }
+]

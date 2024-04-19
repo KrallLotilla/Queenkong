@@ -1,0 +1,26 @@
+<form [formGroup]="userProfileForm" (ngSubmit)="onSubmit()">
+  <label>Name:</label>
+  <input type="text" formControlName="name">
+
+  <label>Email:</label>
+  <input type="email" formControlName="email">
+
+  <label>Age:</label>
+  <input type="number" formControlName="age">
+
+  <div formArrayName="hobbies">
+    <div *ngFor="let hobby of hobbies.controls; let i=index" [formGroupName]="i">
+      <label>Hobby Name:</label>
+      <input type="text" formControlName="name">
+
+      <label>Description:</label>
+      <textarea formControlName="description"></textarea>
+
+      <button type="button" (click)="removeHobby(i)">Remove Hobby</button>
+    </div>
+  </div>
+
+  <button type="button" (click)="addHobby()">Add Hobby</button>
+
+  <button type="submit" [disabled]="userProfileForm.invalid">Submit</button>
+</form>
