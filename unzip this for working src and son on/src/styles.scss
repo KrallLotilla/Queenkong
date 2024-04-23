@@ -1,0 +1,17 @@
+// @font-face {
+//     font-family: 'Bhilligod';
+//     src: url('https://github.com/KrallLotilla/Queenkong/blob/main/BhilligodDemo.woff') format('woff'), /* Modern Browsers */
+//          url('https://github.com/KrallLotilla/Queenkong/blob/main/BhilligodDemo.woff') format('woff'); /* Older Browsers */
+// }
+
+@font-face {
+    font-family: "Bhilligod";
+    src: local("Bhilligod"), url(./assets/fonts/BhilligodDemo.ttf) format("truetype");
+}
+
+/* You can add global styles to this file, and also import other style files */
+body{background-color: aqua;
+   font-family: 'Bhilligod', sans-serif;}
+
+
+

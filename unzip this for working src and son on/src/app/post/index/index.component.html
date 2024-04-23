@@ -1,0 +1,31 @@
+<div class="container">
+    <h1>Angular 17 CRUD Example - ItSolutionStuff.com</h1>
+    
+    <a href="#" routerLink="/post/create/" class="btn btn-success">Create New Post</a>
+      
+    <table class="table">
+        <!-- <table class="table table-striped"></table> -->
+        <thead>
+              <tr>
+                <th class = "border border-1">ID</th>
+                <th class = "border border-1">Title</th>
+                <th class = "border border-1">URL</th>
+                <th class = "border border-1">Thumbnail</th>
+                <th class = "border border-1">Action</th>
+              </tr>
+        </thead>
+        <tbody>
+              <tr *ngFor="let post of posts">
+                <td class = "border border-1">{{ post.id }}</td>
+                <td class = "border border-1">{{ post.url }}</td>
+                <td class = "border border-1">{{ post.title }}</td>
+                <td class = "border border-1"><img [src]="post.thumbnailUrl" alt="Thumbnail"></td>
+                <div class="button-wrapper">
+                <td> <a href="#" [routerLink]="['/post/', post.id, 'view']" class="btn btn-info">View</a></td>
+                <td> <a href="#" [routerLink]="['/post/', post.id, 'edit']" class="btn btn-primary">Edit</a></td>
+                <td> <button type="button" (click)="deletePost(post.id)" class="btn btn-danger">Delete</button></td>
+              </div>
+              </tr>
+        </tbody>
+    </table>
+ </div>

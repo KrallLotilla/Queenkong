@@ -1,0 +1,20 @@
+<!-- structdsample.component.html -->
+<div *ngFor="let user of users">
+  <!-- Display user's name -->
+  <p>{{ user.name }}</p>
+  <!-- Display user's age -->
+  <p>Age: {{ user.age }}</p>
+  <!-- Use *ngIf to show additional message for users above 30 years old -->
+  <p *ngIf="user.age > 30">Above 30 years old</p>
+</div>
+
+<!-- Example of using *ngFor with a filtered list -->
+<div>
+  <h2>Users Above 30</h2>
+  <div *ngFor="let user of filterUsers(30)">
+    <!-- Display user's name -->
+    <p>{{ user.name }}</p>
+    <!-- Display user's age -->
+    <p>Age: {{ user.age }}</p>
+  </div>
+</div>
